@@ -1,0 +1,45 @@
+
+# This file only makes sure, that all animations of equipcast are the
+# same, consider this one as a master animation file, all the equipcasts
+# must meet the same frames, durations, types
+
+
+[stance]
+frames=1
+duration=100ms
+type=back_forth
+
+[run]
+frames=3
+duration=300ms
+type=looped
+
+[swing]
+frames=1
+duration=100ms
+type=back_forth
+
+[cast]
+frames=1
+duration=100ms
+type=back_forth
+
+[shoot]
+frames=1
+duration=100ms
+type=back_forth
+
+[block]
+frames=1
+duration=100ms
+type=back_forth
+
+[hit]
+frames=1
+duration=100ms
+type=back_forth
+
+[die]
+frames=1
+duration=100ms
+type=back_forth

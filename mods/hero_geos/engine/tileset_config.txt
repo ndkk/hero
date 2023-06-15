@@ -1,0 +1,4 @@
+# Tileset Settings
+orientation=orthogonal
+# tile_size: width, height
+tile_size=32,32

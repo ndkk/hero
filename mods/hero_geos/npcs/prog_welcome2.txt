@@ -1,0 +1,14 @@
+name=Programmer
+
+portrait=images/portraits/clint.png
+
+talker=true
+
+# animation info
+animations=animations/npcs/programmer2.txt
+
+[dialog]
+topic=程序员2
+you=……天亮了，今天天气真不错.
+you=我该出去转转了，顺便弄点好吃的！嘻嘻……@;
+

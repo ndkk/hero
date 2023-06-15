@@ -1,0 +1,17 @@
+name=Programmer
+
+portrait=images/portraits/clint.png
+
+talker=true
+
+# animation info
+animations=animations/npcs/programmer1.txt
+
+[dialog]
+topic=程序员
+him=你好，欢迎来到英雄的世界
+him=准备好了吗？
+you=I'm ready
+him=不要后悔
+you=不会的，I 服了 you!
+
