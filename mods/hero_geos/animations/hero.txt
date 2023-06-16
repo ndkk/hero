@@ -10,8 +10,8 @@ duration=100ms
 type=back_forth
 
 [run]
-frames=3
-duration=300ms
+frames=8
+duration=800ms
 type=looped
 
 [swing]
