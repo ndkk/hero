@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "geos/goods.tsx",
+    "activeFile": "geos/city.tmx",
     "expandedProjectPaths": [
-        ".",
-        "geos"
+        "geos",
+        "."
     ],
     "fileStates": {
         "": {
@@ -21,20 +21,20 @@
         },
         "geos/city.tmx": {
             "expandedObjectLayers": [
-                5,
-                4
+                4,
+                5
             ],
-            "scale": 0.75,
-            "selectedLayer": 4,
+            "scale": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 959.3333333333333,
-                "y": 640
+                "x": 1628.25,
+                "y": 199.5
             }
         },
         "geos/field.tmx": {
             "expandedObjectLayers": [
-                5,
-                4
+                4,
+                5
             ],
             "scale": 0.75,
             "selectedLayer": 4,
@@ -55,7 +55,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 479.66666666666663,
-                "y": 319.33333333333337
+                "y": 319.3333333333333
             }
         },
         "geos/map1.tsx": {
@@ -109,9 +109,9 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "/home/th/Public/flare/flare-hero/mods/hero_geos/maps",
+    "last.exportedFilePath": "/home/th/Public/flare/hero/mods/hero_geos/tilesetdefs",
     "last.externalTilesetPath": "/home/th/Public/flare/flare-hero/tiled/geos",
-    "last.imagePath": "/home/th/Public/flare/flare-hero/art_src",
+    "last.imagePath": "/home/th/Public/flare/hero/art_src",
     "lastUsedTilesetExportFilter": "全部文件 (*)",
     "map.height": 40,
     "map.lastUsedExportFilter": "全部文件 (*)",
@@ -127,12 +127,12 @@
     ],
     "project": "hero.tiled-project",
     "recentFiles": [
+        "geos/home.tmx",
         "geos/goods.tsx",
         "geos/palace.tmx",
         "geos/field.tmx",
         "geos/map1.tsx",
         "geos/city.tmx",
-        "geos/home.tmx",
         "geos/maps.tsx",
         "geos/tiled_collision.tsx",
         "geos/PLAYER.tsx",
@@ -143,7 +143,7 @@
     "tileset.lastUsedFilter": "Tiled 图块集文件 (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 32,
+        "height": 128,
         "width": 32
     },
     "tileset.type": 0
