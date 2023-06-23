@@ -16,34 +16,36 @@
             "scaleInDock": 0.75
         },
         "geos/PLAYER.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "geos/city.tmx": {
             "expandedObjectLayers": [
-                4,
-                5
-            ],
-            "scale": 2,
-            "selectedLayer": 1,
-            "viewCenter": {
-                "x": 1628.25,
-                "y": 199.5
-            }
-        },
-        "geos/field.tmx": {
-            "expandedObjectLayers": [
-                4,
-                5
+                5,
+                4
             ],
             "scale": 0.75,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1153.3333333333333,
-                "y": 637.3333333333333
+                "x": 1084,
+                "y": 632.6666666666666
+            }
+        },
+        "geos/field.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 959.9999999999999,
+                "y": 640
             }
         },
         "geos/goods.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -54,16 +56,26 @@
             "scale": 1.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 318,
-                "y": 147.33333333333334
+                "x": 480,
+                "y": 320
             }
         },
         "geos/map1.tsx": {
             "scaleInDock": 0.75,
             "scaleInEditor": 1
         },
+        "geos/map_tall.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "geos/maps.tsx": {
             "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "geos/maps_tall.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "geos/palace.tmx": {
@@ -73,8 +85,8 @@
             "scale": 0.75,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 957.9999999999999,
-                "y": 798.6666666666665
+                "x": 959.9999999999999,
+                "y": 800
             }
         },
         "geos/tiled_collision.tsx": {
@@ -109,9 +121,9 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "/home/th/Public/flare/hero/mods/hero_geos/maps",
-    "last.externalTilesetPath": "/home/th/Public/flare/flare-hero/tiled/geos",
-    "last.imagePath": "/home/th/Public/flare/hero/art_src",
+    "last.exportedFilePath": "/home/th/Public/hero/mods/hero_geos/tilesetdefs",
+    "last.externalTilesetPath": "/home/th/Public/hero/tiled/geos",
+    "last.imagePath": "/home/th/Public/hero/art_src",
     "lastUsedTilesetExportFilter": "全部文件 (*)",
     "map.height": 40,
     "map.lastUsedExportFilter": "全部文件 (*)",
@@ -127,8 +139,10 @@
     ],
     "project": "hero.tiled-project",
     "recentFiles": [
-        "geos/home.tmx",
+        "geos/maps_tall.tsx",
+        "geos/map_tall.tsx",
         "geos/goods.tsx",
+        "geos/home.tmx",
         "geos/palace.tmx",
         "geos/field.tmx",
         "geos/map1.tsx",
@@ -136,9 +150,7 @@
         "geos/maps.tsx",
         "geos/tiled_collision.tsx",
         "geos/PLAYER.tsx",
-        "home.tmx",
-        "tiled_collision.tsx",
-        "maps.tsx"
+        "home.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled 图块集文件 (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",

@@ -13,7 +13,8 @@ title=city
 tileset=../../../art_src/map1.png,32,32,0,0
 tileset=../../../art_src/maps.png,32,32,0,0
 tileset=../../../art_src/tiled_collision.png,32,32,0,0
-tileset=../../../art_src/maps_tall.png,32,128,0,0
+tileset=../../../art_src/map_tall.png,32,128,0,0
+tileset=../../../art_src/PLAYER.png,32,48,0,0
 
 [layer]
 type=background
