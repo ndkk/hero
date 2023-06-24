@@ -26,10 +26,10 @@
                 4
             ],
             "scale": 0.75,
-            "selectedLayer": 1,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 1084,
-                "y": 632.6666666666666
+                "x": 850,
+                "y": 380.66666666666663
             }
         },
         "geos/field.tmx": {
@@ -40,7 +40,7 @@
             "scale": 0.75,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 959.9999999999999,
+                "x": 960,
                 "y": 640
             }
         },
@@ -85,7 +85,7 @@
             "scale": 0.75,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 959.9999999999999,
+                "x": 960,
                 "y": 800
             }
         },
@@ -121,7 +121,7 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "/home/th/Public/hero/mods/hero_geos/tilesetdefs",
+    "last.exportedFilePath": "/home/th/Public/hero/mods/hero_geos/maps",
     "last.externalTilesetPath": "/home/th/Public/hero/tiled/geos",
     "last.imagePath": "/home/th/Public/hero/art_src",
     "lastUsedTilesetExportFilter": "全部文件 (*)",
@@ -139,14 +139,14 @@
     ],
     "project": "hero.tiled-project",
     "recentFiles": [
-        "geos/maps_tall.tsx",
-        "geos/map_tall.tsx",
-        "geos/goods.tsx",
         "geos/home.tmx",
+        "geos/goods.tsx",
         "geos/palace.tmx",
         "geos/field.tmx",
         "geos/map1.tsx",
         "geos/city.tmx",
+        "geos/maps_tall.tsx",
+        "geos/map_tall.tsx",
         "geos/maps.tsx",
         "geos/tiled_collision.tsx",
         "geos/PLAYER.tsx",

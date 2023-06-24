@@ -121,8 +121,9 @@
   <object id="4" type="event" x="282" y="119.333" width="42.6667" height="27.3333">
    <properties>
     <property name="activate" value="on_load"/>
+    <property name="hotspot" value="location"/>
     <property name="npc" value="npcs/prog_welcome2.txt"/>
-    <property name="requires_not_status" value="hero_home_talk"/>
+    <property name="requires_not_status" value=""/>
     <property name="set_status" value="hero_home_talk"/>
    </properties>
   </object>

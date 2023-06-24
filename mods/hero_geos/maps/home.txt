@@ -124,7 +124,8 @@ tooltip=to city
 type=event
 location=8,3,1,0
 activate=on_load
+hotspot=location
 npc=npcs/prog_welcome2.txt
-requires_not_status=hero_home_talk
+requires_not_status=
 set_status=hero_home_talk
 

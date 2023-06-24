@@ -5,7 +5,7 @@ portrait=images/portraits/clint.png
 talker=true
 
 # animation info
-animations=animations/npcs/programmer2.txt
+#animations=animations/avatar/male/default_body.txt
 
 [dialog]
 topic=程序员2
