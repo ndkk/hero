@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "geos/city.tmx",
+    "activeFile": "geos/home.tmx",
     "expandedProjectPaths": [
-        "geos",
-        "."
+        ".",
+        "geos"
     ],
     "fileStates": {
         "": {
@@ -28,8 +28,8 @@
             "scale": 0.75,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 850,
-                "y": 380.66666666666663
+                "x": 872.6666666666665,
+                "y": 636.6666666666666
             }
         },
         "geos/field.tmx": {
@@ -54,10 +54,10 @@
                 4
             ],
             "scale": 1.5,
-            "selectedLayer": 2,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 480,
-                "y": 320
+                "x": 245,
+                "y": 146.33333333333331
             }
         },
         "geos/map1.tsx": {
@@ -139,15 +139,15 @@
     ],
     "project": "hero.tiled-project",
     "recentFiles": [
-        "geos/home.tmx",
         "geos/goods.tsx",
         "geos/palace.tmx",
         "geos/field.tmx",
         "geos/map1.tsx",
         "geos/city.tmx",
+        "geos/home.tmx",
+        "geos/maps.tsx",
         "geos/maps_tall.tsx",
         "geos/map_tall.tsx",
-        "geos/maps.tsx",
         "geos/tiled_collision.tsx",
         "geos/PLAYER.tsx",
         "home.tmx"

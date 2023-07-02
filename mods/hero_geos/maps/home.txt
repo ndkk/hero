@@ -122,10 +122,50 @@ tooltip=to city
 
 [event]
 type=event
-location=8,3,1,0
+location=6,0,1,0
 activate=on_load
 hotspot=location
-npc=npcs/prog_welcome2.txt
+npc=npcs/hero_home.txt
 requires_not_status=
 set_status=hero_home_talk
+
+[event]
+# box1
+type=event
+location=9,2,1,1
+activate=on_trigger
+hotspot=location
+mapmod=object,9,2,308
+msg=OK1
+tooltip=box1
+
+[event]
+# box2
+type=event
+location=10,2,1,1
+activate=on_trigger
+hotspot=location
+mapmod=object,10,2,308
+msg=OK2
+tooltip=box2
+
+[event]
+# box3
+type=event
+location=11,2,1,1
+activate=on_trigger
+hotspot=location
+mapmod=object,11,2,308
+msg=OK3
+tooltip=box3
+
+[event]
+# box4
+type=event
+location=13,2,1,1
+activate=on_trigger
+hotspot=location
+mapmod=object,13,2,308
+msg=OK4
+tooltip=box4
 

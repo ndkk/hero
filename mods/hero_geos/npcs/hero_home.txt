@@ -1,0 +1,14 @@
+name=hero_home
+
+#portrait=images/avatar/male/preview/leather.png
+
+talker=true
+
+# animation info
+#animations=animations/avatar/male/default_body.txt
+
+[dialog]
+topic=hometalk
+you=……It's a nice day!
+you=I should take around, ^ _ ^ 
+
