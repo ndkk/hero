@@ -54,3 +54,8 @@ name=Key
 id=book
 name=Book
 
+[type]
+id=crafting
+name=Crafting Resource
+
+

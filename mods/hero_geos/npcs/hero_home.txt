@@ -10,5 +10,4 @@ talker=true
 [dialog]
 topic=hometalk
 you=……It's a nice day!
-you=I should take around, ^ _ ^ 
-
+you=I should walk around, ^ _ ^ 

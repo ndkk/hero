@@ -131,6 +131,7 @@
    <properties>
     <property name="activate" value="on_trigger"/>
     <property name="hotspot" value="location"/>
+    <property name="loot" value="loot/home_1.txt"/>
     <property name="mapmod" value="object,9,2,308"/>
     <property name="msg" value="OK1"/>
     <property name="tooltip" value="box1"/>
@@ -140,6 +141,7 @@
    <properties>
     <property name="activate" value="on_trigger"/>
     <property name="hotspot" value="location"/>
+    <property name="loot" value="loot/home_2.txt"/>
     <property name="mapmod" value="object,10,2,308"/>
     <property name="msg" value="OK2"/>
     <property name="tooltip" value="box2"/>
