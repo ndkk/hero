@@ -10,4 +10,4 @@ hero_pos=0,0,3
 type=event
 location=0,0,1,1
 activate=on_load
-intermap=maps/home.txt,10,6
+intermap=maps/home.txt,9,4

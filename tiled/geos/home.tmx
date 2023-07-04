@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#000000" nextlayerid="6" nextobjectid="12">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#000000" nextlayerid="6" nextobjectid="18">
  <editorsettings>
   <export target="../../mods/hero_geos/maps/home.tm" format="flare"/>
  </editorsettings>
@@ -123,7 +123,7 @@
     <property name="activate" value="on_load"/>
     <property name="hotspot" value="location"/>
     <property name="npc" value="npcs/hero_home.txt"/>
-    <property name="requires_not_status" value=""/>
+    <property name="requires_not_status" value="hero_home_talk"/>
     <property name="set_status" value="hero_home_talk"/>
    </properties>
   </object>
@@ -133,8 +133,10 @@
     <property name="hotspot" value="location"/>
     <property name="loot" value="loot/home_1.txt"/>
     <property name="mapmod" value="object,9,2,308"/>
-    <property name="msg" value="OK1"/>
-    <property name="tooltip" value="box1"/>
+    <property name="msg" value="you got some money"/>
+    <property name="requires_not_status" value="chest1_open"/>
+    <property name="set_status" value="chest1_open"/>
+    <property name="tooltip" value="1st chest"/>
    </properties>
   </object>
   <object id="6" name="box2" type="event" x="337.333" y="65.6667" width="40.6667" height="46.6667">
@@ -143,26 +145,66 @@
     <property name="hotspot" value="location"/>
     <property name="loot" value="loot/home_2.txt"/>
     <property name="mapmod" value="object,10,2,308"/>
-    <property name="msg" value="OK2"/>
-    <property name="tooltip" value="box2"/>
+    <property name="msg" value="you got one craft"/>
+    <property name="requires_not_status" value="chest2_open"/>
+    <property name="set_status" value="chest2_open"/>
+    <property name="tooltip" value="2nd chest"/>
    </properties>
   </object>
   <object id="9" name="box3" type="event" x="367.333" y="66.3333" width="38.6667" height="46">
    <properties>
     <property name="activate" value="on_trigger"/>
     <property name="hotspot" value="location"/>
+    <property name="loot" value="loot/home_3.txt"/>
     <property name="mapmod" value="object,11,2,308"/>
-    <property name="msg" value="OK3"/>
-    <property name="tooltip" value="box3"/>
+    <property name="msg" value="you got some things"/>
+    <property name="requires_not_status" value="chest3_open"/>
+    <property name="set_status" value="chest3_open"/>
+    <property name="tooltip" value="3rd chest"/>
    </properties>
   </object>
   <object id="10" name="box4" type="event" x="430.667" y="64.6667" width="34.6667" height="35.3333">
    <properties>
     <property name="activate" value="on_trigger"/>
     <property name="hotspot" value="location"/>
+    <property name="loot" value="loot/home_4.txt"/>
     <property name="mapmod" value="object,13,2,308"/>
-    <property name="msg" value="OK4"/>
-    <property name="tooltip" value="box4"/>
+    <property name="msg" value="you got what you want? ^_^"/>
+    <property name="requires_not_status" value="chest4_open"/>
+    <property name="set_status" value="chest4_open"/>
+    <property name="tooltip" value="4th chest"/>
+   </properties>
+  </object>
+  <object id="12" name="box1_onload" type="event" x="277.333" y="2.66667" width="36.6667" height="26">
+   <properties>
+    <property name="activate" value="on_load"/>
+    <property name="hotspot" value="9,2"/>
+    <property name="mapmod" value="object,9,2,308"/>
+    <property name="requires_status" value="chest1_open"/>
+   </properties>
+  </object>
+  <object id="14" name="box2_onload" type="event" x="329.333" y="2" width="36.6667" height="26">
+   <properties>
+    <property name="activate" value="on_load"/>
+    <property name="hotspot" value="10,2"/>
+    <property name="mapmod" value="object,10,2,308"/>
+    <property name="requires_status" value="chest2_open"/>
+   </properties>
+  </object>
+  <object id="16" name="box3_onload" type="event" x="377.333" y="2.66667" width="38.6667" height="26">
+   <properties>
+    <property name="activate" value="on_load"/>
+    <property name="hotspot" value="11,2"/>
+    <property name="mapmod" value="object,11,2,308"/>
+    <property name="requires_status" value="chest3_open"/>
+   </properties>
+  </object>
+  <object id="17" name="box4_onload" type="event" x="429.333" y="2.66667" width="39.3333" height="26">
+   <properties>
+    <property name="activate" value="on_load"/>
+    <property name="hotspot" value="13,2"/>
+    <property name="mapmod" value="object,13,2,308"/>
+    <property name="requires_status" value="chest4_open"/>
    </properties>
   </object>
  </objectgroup>

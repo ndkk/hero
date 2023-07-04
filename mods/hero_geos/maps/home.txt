@@ -126,7 +126,7 @@ location=6,0,1,0
 activate=on_load
 hotspot=location
 npc=npcs/hero_home.txt
-requires_not_status=
+requires_not_status=hero_home_talk
 set_status=hero_home_talk
 
 [event]
@@ -137,8 +137,10 @@ activate=on_trigger
 hotspot=location
 loot=loot/home_1.txt
 mapmod=object,9,2,308
-msg=OK1
-tooltip=box1
+msg=you got some money
+requires_not_status=chest1_open
+set_status=chest1_open
+tooltip=1st chest
 
 [event]
 # box2
@@ -148,8 +150,10 @@ activate=on_trigger
 hotspot=location
 loot=loot/home_2.txt
 mapmod=object,10,2,308
-msg=OK2
-tooltip=box2
+msg=you got one craft
+requires_not_status=chest2_open
+set_status=chest2_open
+tooltip=2nd chest
 
 [event]
 # box3
@@ -157,9 +161,12 @@ type=event
 location=11,2,1,1
 activate=on_trigger
 hotspot=location
+loot=loot/home_3.txt
 mapmod=object,11,2,308
-msg=OK3
-tooltip=box3
+msg=you got some things
+requires_not_status=chest3_open
+set_status=chest3_open
+tooltip=3rd chest
 
 [event]
 # box4
@@ -167,7 +174,46 @@ type=event
 location=13,2,1,1
 activate=on_trigger
 hotspot=location
+loot=loot/home_4.txt
 mapmod=object,13,2,308
-msg=OK4
-tooltip=box4
+msg=you got what you want? ^_^
+requires_not_status=chest4_open
+set_status=chest4_open
+tooltip=4th chest
+
+[event]
+# box1_onload
+type=event
+location=8,0,1,0
+activate=on_load
+hotspot=9,2
+mapmod=object,9,2,308
+requires_status=chest1_open
+
+[event]
+# box2_onload
+type=event
+location=10,0,1,0
+activate=on_load
+hotspot=10,2
+mapmod=object,10,2,308
+requires_status=chest2_open
+
+[event]
+# box3_onload
+type=event
+location=11,0,1,0
+activate=on_load
+hotspot=11,2
+mapmod=object,11,2,308
+requires_status=chest3_open
+
+[event]
+# box4_onload
+type=event
+location=13,0,1,0
+activate=on_load
+hotspot=13,2
+mapmod=object,13,2,308
+requires_status=chest4_open
 
