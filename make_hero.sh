@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # 1) put this file to flare-engine/distribution/emscripten
-# 2) then execute ./make_hero.sh
+# 2) modify flare-engine/mods/mods.txt file, just include "hero_geos"
+# 3) then execute ./make_hero.sh
 
 cd "`dirname "$0"`"
 cd ../../
