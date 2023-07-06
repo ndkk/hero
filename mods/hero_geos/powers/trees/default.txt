@@ -1,78 +1,66 @@
 # tab 0
 [tab]
-title=Warrior1
+title=Warrior
 
 # tab 1
 [tab]
-title=Ranger2
+title=Ranger
 
 # tab 2
 [tab]
-title=Magician3
+title=Magician
 
 [power]
 id=1
-position=144,64
+position=50,80
 
 [power]
 id=2
 tab=0
-position=176,128
-requires_level=1
-requires_point=true
-
-[power]
-id=3
-tab=0
-position=240,128
+position=100,120
 requires_level=1
 requires_point=true
 
 [power]
 id=11
 tab=1
-position=176,192
+position=50,80
 requires_level=2
 requires_point=true
 
 [power]
 id=4
 tab=1
-position=240,192
+position=100,120
 requires_level=2
 requires_point=true
 
 [power]
 id=5
 tab=2
-position=176,256
+position=50,80
 requires_level=3
 requires_point=true
 
 [power]
 id=6
 tab=1
-position=140,256
+position=150,120
 requires_level=3
 requires_point=true
 
 [power]
 id=7
 tab=1
-position=176,320
+position=200,120
 requires_level=4
 requires_point=true
 
 [power]
 id=8
 tab=1
-position=240,320
+position=200,160
 requires_level=4
 requires_point=true
 
-[power]
-id=6
-tab=2
-position=140,320
-requires_level=4
-requires_point=true
+

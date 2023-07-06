@@ -46,3 +46,25 @@ mods/hero_geos/loot/<xs>.txt
 
     loot=751,100  -- itemid, chance
     
+# how to add a new power
+mods/hero_geos/powers/powers.txt
+
+    id:XX  --unified identity
+
+    type: fixed missile repeater spawn transform block  --dead code
+    
+    icon: same as inventory
+
+    new_state: if not instant, it's animation tag. 
+        in animations/avatar/male/default_body.txt [<new_state>], such as [swing]
+
+    base_damage: melee -- mods/default/engine/damage_types.txt
+                          dmg_melee_min -- correspond to "stat="
+
+mods/hero_geos/trees/default.txt
+    
+    [power]
+    id=1
+    position=0,0
+
+    position : relative to power field
