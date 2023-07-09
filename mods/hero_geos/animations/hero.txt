@@ -15,7 +15,7 @@ duration=800ms
 type=looped
 
 [swing]
-frames=4
+frames=3
 duration=100ms
 type=back_forth
 
