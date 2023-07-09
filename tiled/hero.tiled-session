@@ -22,8 +22,8 @@
         },
         "geos/city.tmx": {
             "expandedObjectLayers": [
-                4,
-                5
+                5,
+                4
             ],
             "scale": 0.75,
             "selectedLayer": 3,
@@ -34,8 +34,8 @@
         },
         "geos/field.tmx": {
             "expandedObjectLayers": [
-                4,
-                5
+                5,
+                4
             ],
             "scale": 0.75,
             "selectedLayer": 1,
@@ -56,7 +56,7 @@
             "scale": 1.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 474,
+                "x": 473.3333333333333,
                 "y": 113.66666666666669
             }
         },

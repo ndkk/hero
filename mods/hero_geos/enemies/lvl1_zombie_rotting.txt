@@ -23,4 +23,4 @@ stat=dmg_melee_max,20
 cooldown=1800ms
 
 #loot
-loot=loot/level_1.txt
+loot=loot/coins100.txt

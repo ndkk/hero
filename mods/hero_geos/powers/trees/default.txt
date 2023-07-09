@@ -11,7 +11,7 @@ title=Ranger
 title=Magician
 
 [power]
-id=1
+id=717
 position=50,80
 
 [power]
