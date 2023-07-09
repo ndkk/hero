@@ -157,16 +157,80 @@ tooltip=to city
 [event]
 # to palace
 type=event
-location=42,25,2,2
+location=43,26,2,2
 activate=on_trigger
 hotspot=location
 intermap=maps/palace.txt
 
 [enemy]
-# zombie1
+# redarmband
 type=enemy
 location=2,9,1,1
-category=undead
+category=redarmband
+level=1
+number=2
+
+[enemy]
+# gridmember
+type=enemy
+location=18,2,1,1
+category=gridmember
+level=1
+number=3
+
+[enemy]
+# volunteer
+type=enemy
+location=24,5,1,1
+category=volunteer
+level=1
+number=3
+
+[enemy]
+# neighborhoodcommitte
+type=enemy
+location=29,6,2,1
+category=neighborhoodcommittee
+level=1
+number=2
+
+[enemy]
+# nucleicacidstaff
+type=enemy
+location=31,16,2,1
+category=nucleicacidstaff
+level=1
+number=5
+
+[enemy]
+# whiteguard
+type=enemy
+location=41,13,2,2
+category=whiteguard
+level=1
+number=2
+
+[enemy]
+# whiteguard
+type=enemy
+location=31,25,2,1
+category=whiteguard
+level=1
+number=3
+
+[enemy]
+# white_guard
+type=enemy
+location=3,22,2,1
+category=whiteguard
+level=1
+number=3
+
+[enemy]
+# redarmband
+type=enemy
+location=13,17,2,1
+category=redarmband
 level=1
 number=2
 

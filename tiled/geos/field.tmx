@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="6">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="14">
  <editorsettings>
-  <export target="../../mods/hero_geos/maps/field.txt" format="flare"/>
+  <export target="../../mods/hero_geos/maps/field.tm" format="flare"/>
  </editorsettings>
  <properties>
   <property name="hero_pos" value="1,2"/>
@@ -151,7 +151,7 @@
     <property name="tooltip" value="to city"/>
    </properties>
   </object>
-  <object id="3" name="to palace" type="event" x="1368" y="826.667" width="72" height="72">
+  <object id="3" name="to palace" type="event" x="1392" y="845.334" width="72" height="72">
    <properties>
     <property name="activate" value="on_trigger"/>
     <property name="hotspot" value="location"/>
@@ -160,9 +160,65 @@
   </object>
  </objectgroup>
  <objectgroup id="5" name="enemy">
-  <object id="5" name="zombie1" type="enemy" x="94.6667" y="304" width="42.6667" height="37.3333">
+  <object id="5" name="redarmband" type="enemy" x="94.6667" y="304" width="42.6667" height="37.3333">
    <properties>
-    <property name="category" value="undead"/>
+    <property name="category" value="redarmband"/>
+    <property name="level" value="1"/>
+    <property name="number" value="2"/>
+   </properties>
+  </object>
+  <object id="6" name="gridmember" type="enemy" x="582.667" y="69.3333" width="44" height="42.6667">
+   <properties>
+    <property name="category" value="gridmember"/>
+    <property name="level" value="1"/>
+    <property name="number" value="3"/>
+   </properties>
+  </object>
+  <object id="7" name="volunteer" type="enemy" x="780" y="165.333" width="58.6667" height="54.6667">
+   <properties>
+    <property name="category" value="volunteer"/>
+    <property name="level" value="1"/>
+    <property name="number" value="3"/>
+   </properties>
+  </object>
+  <object id="8" name="neighborhoodcommitte" type="enemy" x="941.333" y="204" width="66.6667" height="54.6667">
+   <properties>
+    <property name="category" value="neighborhoodcommittee"/>
+    <property name="level" value="1"/>
+    <property name="number" value="2"/>
+   </properties>
+  </object>
+  <object id="9" name="nucleicacidstaff" type="enemy" x="1010.67" y="536" width="70.6667" height="58.6667">
+   <properties>
+    <property name="category" value="nucleicacidstaff"/>
+    <property name="level" value="1"/>
+    <property name="number" value="5"/>
+   </properties>
+  </object>
+  <object id="10" name="whiteguard" type="enemy" x="1317.33" y="430.667" width="69.3333" height="64">
+   <properties>
+    <property name="category" value="whiteguard"/>
+    <property name="level" value="1"/>
+    <property name="number" value="2"/>
+   </properties>
+  </object>
+  <object id="11" name="whiteguard" type="enemy" x="1021.33" y="825.333" width="78.6667" height="62.6667">
+   <properties>
+    <property name="category" value="whiteguard"/>
+    <property name="level" value="1"/>
+    <property name="number" value="3"/>
+   </properties>
+  </object>
+  <object id="12" name="white_guard" type="enemy" x="118.667" y="712" width="73.3333" height="61.3333">
+   <properties>
+    <property name="category" value="whiteguard"/>
+    <property name="level" value="1"/>
+    <property name="number" value="3"/>
+   </properties>
+  </object>
+  <object id="13" name="redarmband" type="enemy" x="432" y="561.333" width="73.3333" height="60">
+   <properties>
+    <property name="category" value="redarmband"/>
     <property name="level" value="1"/>
     <property name="number" value="2"/>
    </properties>
