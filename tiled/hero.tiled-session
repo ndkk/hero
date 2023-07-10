@@ -29,8 +29,8 @@
             "scale": 0.75,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 960,
-                "y": 639.3333333333333
+                "x": 876,
+                "y": 640
             }
         },
         "geos/field.tmx": {
@@ -42,7 +42,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 960,
-                "y": 639.5
+                "y": 640
             }
         },
         "geos/goods.tsx": {
@@ -57,8 +57,8 @@
             "scale": 1.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 214.66666666666666,
-                "y": 117.66666666666669
+                "x": 479.3333333333333,
+                "y": 319
             }
         },
         "geos/map1.tsx": {
@@ -87,7 +87,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 960,
-                "y": 799.3333333333333
+                "y": 800
             }
         },
         "geos/tiled_collision.tsx": {

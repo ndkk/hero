@@ -1,4 +1,4 @@
-name=Yora, Enchanter
+name=Ma yun
 
 portrait=images/portraits/female04.png
 

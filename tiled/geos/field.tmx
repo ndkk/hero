@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="14">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="15">
  <editorsettings>
   <export target="../../mods/hero_geos/maps/field.tm" format="flare"/>
  </editorsettings>
@@ -209,7 +209,7 @@
    <properties>
     <property name="category" value="redarmband"/>
     <property name="level" value="1"/>
-    <property name="number" value="2"/>
+    <property name="number" value="5"/>
    </properties>
   </object>
   <object id="6" name="gridmember" type="enemy" x="582.667" y="69.3333" width="44" height="42.6667">
@@ -266,6 +266,13 @@
     <property name="category" value="redarmband"/>
     <property name="level" value="1"/>
     <property name="number" value="2"/>
+   </properties>
+  </object>
+  <object id="14" type="enemy" x="339" y="34" width="47" height="44">
+   <properties>
+    <property name="category" value="whiteguard"/>
+    <property name="level" value="1"/>
+    <property name="number" value="10"/>
    </properties>
   </object>
  </objectgroup>

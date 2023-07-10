@@ -19,5 +19,5 @@ caption=So be careful.
 pause=-1
 caption=The truth is deserved to you, to our human.
 pause=-1
-caption=Fight...Fight... this is the only road to you.
+caption=Fight...Fight... and Fight ... this is the only road to you.
 pause=-1

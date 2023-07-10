@@ -213,7 +213,7 @@ type=enemy
 location=2,9,1,1
 category=redarmband
 level=1
-number=2
+number=5
 
 [enemy]
 # gridmember
@@ -278,4 +278,11 @@ location=13,17,2,1
 category=redarmband
 level=1
 number=2
+
+[enemy]
+type=enemy
+location=10,1,1,1
+category=whiteguard
+level=1
+number=10
 
