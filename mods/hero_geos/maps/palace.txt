@@ -179,7 +179,7 @@ data=
 [event]
 # to field
 type=event
-location=28,44,2,1
+location=29,44,2,1
 activate=on_trigger
 hotspot=location
 intermap=maps/field.txt,40,25

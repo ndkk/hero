@@ -121,10 +121,11 @@ intermap=maps/city.txt
 tooltip=to city
 
 [event]
+# enter
 type=event
-location=6,0,1,0
+location=9,3,1,0
 activate=on_load
-hotspot=location
+delay=1s
 npc=npcs/hero_home.txt
 requires_not_status=hero_home_talk
 set_status=hero_home_talk
@@ -216,4 +217,13 @@ activate=on_load
 hotspot=13,2
 mapmod=object,13,2,308
 requires_status=chest4_open
+
+[event]
+# cutsene
+type=event
+location=6,1,1,0
+activate=on_load
+cutscene=cutscenes/backstory.txt
+requires_not_status=hero_backstory
+set_status=hero_backstory
 

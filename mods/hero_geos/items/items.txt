@@ -13,6 +13,33 @@ loot_animation=animations/loot/coins25.txt,25,99
 loot_animation=animations/loot/coins100.txt,100,0
 quality=currency
 
+# Potions (id 2-3)
+INCLUDE items/categories/potions.txt
+
+# Hero gear
+INCLUDE items/categories/level_1.txt
+INCLUDE items/categories/level_2.txt
+INCLUDE items/categories/level_3.txt
+INCLUDE items/categories/level_4.txt
+INCLUDE items/categories/level_4_unique.txt
+INCLUDE items/categories/level_5.txt
+INCLUDE items/categories/level_6.txt
+INCLUDE items/categories/level_7.txt
+INCLUDE items/categories/level_8.txt
+INCLUDE items/categories/level_8_unique.txt
+INCLUDE items/categories/level_9.txt
+INCLUDE items/categories/level_10.txt
+INCLUDE items/categories/level_11.txt
+INCLUDE items/categories/level_12.txt
+INCLUDE items/categories/level_12_unique.txt
+INCLUDE items/categories/level_13.txt
+INCLUDE items/categories/level_14.txt
+INCLUDE items/categories/level_15.txt
+INCLUDE items/categories/level_16.txt
+INCLUDE items/categories/level_16_unique.txt
+
+# Crafting items (starts at 750)
+INCLUDE items/categories/crafting.txt
 
 [item]
 id=751
@@ -30,7 +57,10 @@ id=267
 name=Great Bow
 item_type=main
 quality=high
-icon=83
+icon=112
 price=5000
 max_quantity=20
-equip_flags=ranged
+equip_flags=ranged,slingshot
+loot_animation=animations/loot/slingshot.txt
+INCLUDE items/base/weapons/ranged/ammo/rocks.txt
+

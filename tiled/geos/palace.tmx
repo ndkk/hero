@@ -174,7 +174,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="event">
-  <object id="1" name="to field" type="event" x="916" y="1437.33" width="85.3333" height="42.6667">
+  <object id="1" name="to field" type="event" x="944" y="1438.66" width="85.3333" height="42.6667">
    <properties>
     <property name="activate" value="on_trigger"/>
     <property name="hotspot" value="location"/>

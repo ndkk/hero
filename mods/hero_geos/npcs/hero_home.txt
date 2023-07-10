@@ -5,7 +5,7 @@ name=hero_home
 talker=true
 
 # animation info
-#animations=animations/avatar/male/default_body.txt
+#animations=animations/npcs/programmer1.txt
 
 [dialog]
 topic=hometalk

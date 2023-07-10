@@ -1,0 +1,23 @@
+caption_margins=5,5
+caption_background=0,0,0,200
+music=music/wind_ambient.ogg
+
+[scene]
+image=images/menus/backgrounds/fire_temple.png,1
+caption=Covid-19 crisis, that's a disaster of humankind.
+pause=-1
+caption=Everyone was scared, but whoever know the truth?
+pause=-1
+caption=My hero you will find out the truth.
+pause=-1
+caption=Now startup and fight for the human's lives.
+pause=-1
+
+caption=The everything around you, such as red armbands, white guards, grid members, volunteers, nucleic acid staffs, neighborhood committees. They are all enemies.
+pause=-1
+caption=So be careful.
+pause=-1
+caption=The truth is deserved to you, to our human.
+pause=-1
+caption=Fight...Fight... this is the only road to you.
+pause=-1
