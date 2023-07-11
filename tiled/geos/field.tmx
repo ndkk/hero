@@ -209,7 +209,7 @@
    <properties>
     <property name="category" value="redarmband"/>
     <property name="level" value="1"/>
-    <property name="number" value="5"/>
+    <property name="number" value="15"/>
    </properties>
   </object>
   <object id="6" name="gridmember" type="enemy" x="582.667" y="69.3333" width="44" height="42.6667">
@@ -272,7 +272,7 @@
    <properties>
     <property name="category" value="whiteguard"/>
     <property name="level" value="1"/>
-    <property name="number" value="10"/>
+    <property name="number" value="15"/>
    </properties>
   </object>
  </objectgroup>

@@ -68,3 +68,7 @@ mods/hero_geos/trees/default.txt
     position=0,0
 
     position : relative to power field
+
+!!! very important attribute: replace_power in "rock.txt"
+    That's replace meta_power to new power according to carry different weapon.
+    

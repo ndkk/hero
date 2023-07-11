@@ -10,6 +10,10 @@ title=Ranger
 [tab]
 title=Magician
 
+# tab 3
+[tab]
+title=Programmer
+
 ### Warrior Tab ###############################################################
 # swing
 [power]

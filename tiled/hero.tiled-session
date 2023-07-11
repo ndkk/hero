@@ -39,10 +39,10 @@
                 5
             ],
             "scale": 1,
-            "selectedLayer": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 960,
-                "y": 640
+                "x": 222,
+                "y": 188.5
             }
         },
         "geos/goods.tsx": {

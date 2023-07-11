@@ -54,11 +54,11 @@ loot_animation=animations/loot/gem.txt
 
 [item]
 id=267
-name=Great Bow
+name=mini slingshot
 item_type=main
 quality=high
 icon=112
-price=5000
+price=50
 max_quantity=20
 equip_flags=ranged,slingshot
 loot_animation=animations/loot/slingshot.txt
