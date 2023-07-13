@@ -3,7 +3,7 @@ caption_background=0,0,0,200
 music=music/wind_ambient.ogg
 
 [scene]
-image=images/menus/backgrounds/fire_temple.png,1
+image=images/cutscenes/wuhan.jpg,1
 caption=Covid-19 crisis, that's a disaster of humankind.
 pause=-1
 caption=Everyone was scared, but whoever know the truth?
