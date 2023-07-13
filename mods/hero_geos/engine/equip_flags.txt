@@ -24,3 +24,15 @@ name=slingshot
 id=bow
 name=bow
 
+[flag]
+id=propaganda
+name=propaganda
+
+[flag]
+id=screen
+name=screen
+
+[flag]
+id=harass
+name=harass
+

@@ -20,3 +20,15 @@ vox_intro=soundfx/npcs/female_merchant_05.ogg
 vox_intro=soundfx/npcs/female_merchant_06.ogg
 vox_intro=soundfx/npcs/female_merchant_07.ogg
 vox_intro=soundfx/npcs/female_merchant_08.ogg
+
+talker=true
+
+[dialog]
+topic=Talk
+requires_not_status=emp_ort_init
+requires_not_status=emp_ort_finish
+him=... Bro-ther... g-give...
+him=(Ort grabs your hand and places a red gem in it.)
+reward_item=1008,1
+set_status=emp_ort_init
+msg=Quest added.
